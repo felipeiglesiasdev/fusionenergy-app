@@ -10,6 +10,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
-        
+        <x-sections.header />
+        <x-sections.quem-somos />
+        <x-sections.servicos />
+        <x-sections.contato />
+        <x-sections.footer />
     </body>
 </html>
