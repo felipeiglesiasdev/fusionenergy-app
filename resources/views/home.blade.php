@@ -10,17 +10,31 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans">
+    <body class="font-sans overflow-x-hidden" x-data="{ activeSection: 'hero' }">
         <x-sections.header />
         <main>
-            <x-sections.hero /> 
-            <x-sections.servicos id="servicos" />
-            <x-sections.projeto-fotovoltaico id="fotovoltaico" />
-            <x-sections.limpeza-paineis id="limpeza" />
-            <x-sections.instagram-feed id="instagram" /> 
-            <x-sections.contato id="contato" />
+            <section x-intersect.threshold.0.5="activeSection = 'hero'">
+                <x-sections.hero /> 
+            </section>
+            <section x-intersect.threshold.0.5="activeSection = 'servicos'">
+                <x-sections.servicos id="servicos" />
+            </section>
+            <section x-intersect.threshold.0.5="activeSection = 'fotovoltaico'">
+                <x-sections.projeto-fotovoltaico id="fotovoltaico" />
+            </section>
+            <section x-intersect.threshold.0.5="activeSection = 'limpeza'">
+                <x-sections.limpeza-paineis id="limpeza" />
+            </section>
+            <section x-intersect.threshold.0.5="activeSection = 'instagram'">
+                <x-sections.instagram-feed id="instagram" /> 
+            </section>
+            <section x-intersect.threshold.0.5="activeSection = 'contato'">
+                <x-sections.contato id="contato" />
+            </section>
         </main>
         <x-sections.footer />
         <x-sections.popup-whatsapp />
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        
     </body>
 </html>

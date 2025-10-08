@@ -9,15 +9,11 @@
                 </p>
                 {{-- Ícones de Redes Sociais --}}
                 <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-[#FD9835] transition-colors">
+                    <a href="https://www.instagram.com/fusionenergy.eng/" target="_blank" class="text-gray-400 hover:text-[#FD9835] transition-colors">
                         <span class="sr-only">Instagram</span>
                         <i class="bi bi-instagram text-xl"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-[#FD9835] transition-colors">
-                        <span class="sr-only">Facebook</span>
-                        <i class="bi bi-facebook text-xl"></i>
-                    </a>
-                    <a href="https://wa.me/5532000000000" target="_blank" class="text-gray-400 hover:text-[#FD9835] transition-colors">
+                    <a href="https://wa.me/553298321024?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais..." target="_blank" class="text-gray-400 hover:text-[#FD9835] transition-colors">
                         <span class="sr-only">WhatsApp</span>
                         <i class="bi bi-whatsapp text-xl"></i>
                     </a>
@@ -32,7 +28,7 @@
                         <h3 class="text-sm font-semibold leading-6 text-white">Navegação</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#quem-somos" class="text-sm leading-6 text-gray-300 hover:text-white">Quem Somos</a>
+                                <a href="#instagram" class="text-sm leading-6 text-gray-300 hover:text-white">Nossos Trabalhos</a>
                             </li>
                             <li>
                                 <a href="#servicos" class="text-sm leading-6 text-gray-300 hover:text-white">Serviços</a>
@@ -63,15 +59,15 @@
                         <h3 class="text-sm font-semibold leading-6 text-white">Contato</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li class="flex items-center justify-center sm:justify-start gap-3">
-                                <i class="bi bi-telephone-fill text-[#6BB7E7]"></i>
-                                <span class="text-sm leading-6 text-gray-300">(32) 99999-9999</span>
+                                <i class="bi bi-telephone-fill text-[#FD9835]"></i>
+                                <span class="text-sm leading-6 text-gray-300">(32) 99832-1024</span>
                             </li>
                             <li class="flex items-center justify-center sm:justify-start gap-3">
-                                <i class="bi bi-envelope-fill text-[#6BB7E7]"></i>
-                                <span class="text-sm leading-6 text-gray-300">contato@fusionenergy.com.br</span>
+                                <i class="bi bi-envelope-fill text-[#FD9835]"></i>
+                                <span class="text-sm leading-6 text-gray-300">fusioneneegysolucoes@gmail.com</span>
                             </li>
                              <li class="flex items-center justify-center sm:justify-start gap-3">
-                                <i class="bi bi-geo-alt-fill text-[#6BB7E7]"></i>
+                                <i class="bi bi-geo-alt-fill text-[#FD9835]"></i>
                                 <span class="text-sm leading-6 text-gray-300">Juiz de Fora - MG</span>
                             </li>
                         </ul>

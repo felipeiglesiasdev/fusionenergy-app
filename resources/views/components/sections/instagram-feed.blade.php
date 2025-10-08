@@ -12,15 +12,7 @@
 
         {{-- Container do Feed do Instagram --}}
         <div class="mt-16 max-w-5xl mx-auto">
-            {{-- 
-                COLE AQUI O CÓDIGO GERADO PELO LIGHTWIDGET OU SIMILAR.
-                Ele geralmente começa com "<iframe src=..."
-            --}}
-            <div class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center">
-                <p class="text-gray-500">Área do feed do Instagram</p>
-            </div>
-            {{-- Exemplo de como ficaria: --}}
-            {{-- <iframe src="//lightwidget.com/widgets/..." scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> --}}
+            <iframe src="//lightwidget.com/widgets/20eed5809dba5bfc8397e486fdd5348a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </div>
 
         {{-- Botão para Seguir --}}

@@ -1,4 +1,4 @@
-<section id="processo" class="relative z-10 bg-[#171717] py-24 sm:py-32 overflow-hidden">
+<section id="fotovoltaico" class="relative z-10 bg-[#171717] py-24 sm:py-32 overflow-hidden">
     {{-- EFEITOS DE LUZ NO FUNDO --}}
     <div class="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2">
         <div class="w-[40rem] h-[40rem] rounded-full bg-gradient-to-tr from-[#2115AD]/50 to-transparent filter blur-3xl"></div>

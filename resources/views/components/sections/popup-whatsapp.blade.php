@@ -1,5 +1,5 @@
 <div class="fixed bottom-6 right-6 z-40 group animate-fade-in">
-    <a href="https://wa.me/5532000000000?text=Olá! Vim pelo site e gostaria de um orçamento." 
+    <a href="https://wa.me/553298321024?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais..." 
         target="_blank" 
         class="relative flex items-center justify-center w-16 h-16 bg-green-500 rounded-full shadow-lg
                 transition-transform duration-300 transform hover:scale-110 hover:bg-green-600"
